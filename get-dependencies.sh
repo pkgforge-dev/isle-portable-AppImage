@@ -11,7 +11,6 @@ pacman -Syu --noconfirm \
     iniparser \
     libdecor  \
     python    \
-    qt6-base  \
     sdl3
 
 echo "Installing debloated packages..."
