@@ -32,7 +32,6 @@ cd ./isle-portable
 mkdir -p build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release \
          -DCMAKE_INSTALL_PREFIX=/usr \
-         -DCMAKE_INSTALL_LIBDIR=lib \
          -DDOWNLOAD_DEPENDENCIES=ON
 make -j $(nproc)
 make install
